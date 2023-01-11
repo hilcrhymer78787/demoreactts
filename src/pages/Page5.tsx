@@ -42,7 +42,7 @@ export function Page5() {
               <li>活動範囲 ...... {heroTeam.homeTown}</li>
               <li>結成 ...... {heroTeam.formed}</li>
               <li>拠点 ...... {heroTeam.secretBase}</li>
-              <li>活動しているか ...... {heroTeam.active}</li>
+              <li>活動しているか ...... {heroTeam.active ? 'している' : 'していない'}</li>
               <li>
                 隊員 ......
                 <ul>
@@ -140,7 +140,7 @@ export function Page9() {
         <li>活動範囲 ...... {heroTeam.homeTown}</li>
         <li>結成 ...... {heroTeam.formed}</li>
         <li>拠点 ...... {heroTeam.secretBase}</li>
-        <li>活動しているか ...... {heroTeam.active}</li>
+        <li>活動しているか ...... {heroTeam.active ? 'している' : 'していない'}</li>
         <li>
           隊員 ......
           <ul>
