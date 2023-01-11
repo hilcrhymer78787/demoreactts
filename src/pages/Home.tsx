@@ -6,7 +6,7 @@ export function Home() {
         <div className="goal">
             <h2>はじめよう</h2>
             <div className='wrap'>
-                git clone https://github.com/hilcrhymer78787/react-template.git<br />
+                git clone https://github.com/hilcrhymer78787/react-ts-template.git<br />
                 <br />
                 cd react-template<br />
                 <br />
