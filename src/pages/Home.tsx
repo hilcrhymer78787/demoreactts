@@ -8,7 +8,7 @@ export function Home() {
             <div className='wrap'>
                 git clone https://github.com/hilcrhymer78787/react-ts-template.git<br />
                 <br />
-                cd react-template<br />
+                cd react-ts-template<br />
                 <br />
                 rm -rf .git<br />
                 <br />
