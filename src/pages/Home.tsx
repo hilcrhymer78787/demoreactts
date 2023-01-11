@@ -1,18 +1,23 @@
-import { AlertBtn } from '../components/AlertBtn'
+
 import React from 'react';
-import styled from 'styled-components';
 
 export function Home() {
-  return (
-    <>
-      <h1>Home</h1>
-      <Text color='gray'>これはHomeです。これはHomeです。これはHomeです。これはHomeです。これはHomeです。これはHomeです。これはHomeです。これはHomeです。これはHomeです。</Text>
-      <AlertBtn />
-    </>
-  );
+    return (
+        <div className="goal">
+            <h2>はじめよう</h2>
+            <div className='wrap'>
+                git clone https://github.com/hilcrhymer78787/react-template.git<br />
+                <br />
+                cd react-template<br />
+                <br />
+                rm -rf .git<br />
+                <br />
+                git init<br />
+                <br />
+                yarn install<br />
+                <br />
+                yarn start<br />
+            </div>
+        </div>
+    );
 }
-
-const Text = styled.p`
-  padding: 30px;
-  color: ${(props: { color: string }) => props.color}
-`
